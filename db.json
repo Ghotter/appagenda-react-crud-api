@@ -1,0 +1,23 @@
+{
+"contatos":[
+    {
+    "id":"1",
+    "nome":"Bill Gates",
+    "fone":"0300-055+989658",
+    "email":"bill@gates.com"
+},
+{
+    "id":"2",
+    "nome":"Stevie Jobs",
+    "fone":"0300-055+989658",
+    "email":"stivie@jobs.com"
+},
+    
+{
+    "id":"3",
+    "nome":"James Gosling",        
+    "fone":"978-055+989689",
+    "email":"James@Gosling.com"
+}
+]
+}
