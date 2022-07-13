@@ -1,6 +1,6 @@
 import React from 'react';
 
-import RotasBotao from './pages/rotasbotão';
+import RotasBotao from './pages/RotasBotao';
 
 export default function App(){
   return(

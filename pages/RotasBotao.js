@@ -1,18 +1,18 @@
 import React from 'react';
-import { StatusBar } from 'expo-status-bar';
 import { NavigationContainer } from '@react-navigation/native';
-import {createNativeStackNavigation} from '@react-navigation/native-stack'
+import { createStackNavigator } from '@react-navigation/stack';
 
-const navegacao = createNativeStackNavigation();
-import home from './pages/Home';
-import cadastro from '../pages/Cadastro';
+const nav = createStackNavigator();
+
+import Home from '../pages/Home';
+import Cadastro from '../pages/Cadastro';
 
 export default function RotasBotao() {
   return (
       <NavigationContainer>
           <nav.Navigator>
               <nav.Screen name="home" component={Home}/>
-              <nav.Screen name="cadastro" component={cadastro}/>
+              <nav.Screen name="cadastro" component={Cadastro}/>
           </nav.Navigator>
       </NavigationContainer>
     
